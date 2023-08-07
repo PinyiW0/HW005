@@ -4,11 +4,17 @@
     min-height: 100vh;//view-height 高度自適應滿版
 }
 
-.nav-link.active::before {
+.nav-link:hover::before {
     content: "";
     position: absolute;
     left: 0;
     width: 4px;
     height: 32px;
     border-left: 4px solid #198754;
+}
+.nav-item:hover{
+    color: $primary !important;
+}
+.nav-item a:hover {
+    color: $primary !important;
 }
