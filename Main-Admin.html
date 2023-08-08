@@ -7,8 +7,8 @@
     <link
         href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
         rel="stylesheet">
-  <script type="module" crossorigin src="/HW005/assets/main-1d3b0978.js"></script>
-  <link rel="stylesheet" href="/HW005/assets/main-29bfd13e.css">
+  <script type="module" crossorigin src="/HW005/assets/bootstrap.min-1258ce7c.js"></script>
+  <link rel="stylesheet" href="/HW005/assets/bootstrap-a8f65fad.css">
 </head>        <nav class="nav flex-column justify-content-between bg-light text-dark ">
         <ul class="list-unstyled">
             <li>
@@ -56,21 +56,98 @@
         </ul>
         <div class="d-flex align-items-center ps-6 mb-6">
             <div class="flex-shrink-0">
-                <img class="rounded-circle" src="/HW005/assets/andychen-f14fef59.jpeg" width="40" height="40" alt="andychen's photo">
+                <img class="rounded-circle user-photo" src="/HW005/assets/andychen-f14fef59.jpeg" width="40" alt="andychen's photo">
             </div>
             <div class="flex-grow-1 ms-3">
                 <h6 class="fw-bold mb-1">Andy Chen</h6>
-                <p class="fs-7 text-secondary">andy0401@mail.com</p>
+                <p class="fs-7 text-secondary mb-0">andy0401@mail.com</p>
             </div>
         </div>
         
     </nav>
-        <main class="main">
-      <h1>Admin</h1>
+        <main class="main container">
+      <div class="ms-7 py-6 d-flex">
+          <h1 class="fs-4 fw-bold me-8">Admin</h1>
+          <!-- Scrollable modal -->
+          <div class="modal-dialog modal-dialog-scrollable">
+            Add New Admin
+          </div>
+          <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Launch modal</button>
+      </div>
+      <table class="table ms-7">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Verified</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">#1</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th scope="row">#2</th>
+            <td>Zaina Goldsmith</td>
+            <td>zaina.goldsmith@mail.com</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th scope="row">#3</th>
+            <td>Mahima Lopez</td>
+            <td>mahima.lopez@mail.com</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th scope="row">#4</th>
+            <td>Pharrell Murray</td>
+            <td>pharrell.murray@mail.com</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th scope="row">#5</th>
+            <td>Annika Mcbride</td>
+            <td>annika.mcbride@mail.com</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th scope="row">#6</th>
+            <td>Fatimah Clark</td>
+            <td>fatimah.clark@mail.com</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th scope="row">#7</th>
+            <td>Klaudia Rhodes</td>
+            <td>klaudia.rhodes@mail.com</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th scope="row">#8</th>
+            <td>Tillie Lucero</td>
+            <td>tillie.lucero@mail.com</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th scope="row">#9</th>
+            <td>Sabrina Stephenson</td>
+            <td>sabrina.stephenson@mail.com</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <th scope="row">#10</th>
+            <td>Annie Smith</td>
+            <td>annie.smith@mail.com</td>
+            <td>Yes</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
-    </body>
 
-</html>
     
   </body>
 </html>
