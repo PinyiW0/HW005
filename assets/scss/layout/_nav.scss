@@ -3,7 +3,9 @@
     min-width: 296px;
     min-height: 100vh;//view-height 高度自適應滿版
 }
-
+.nav-link{
+    color: $dark;
+}
 .nav-link:hover::before {
     content: "";
     position: absolute;
@@ -13,11 +15,12 @@
     border-left: 4px solid #198754;
 }
 .nav-item:hover{
-    color: $primary !important;
+    color: $primary;
+    a{
+        color: $primary;
+    }
 }
-.nav-item a:hover {
-    color: $primary !important;
-}
+
 .user-photo{
     height: 40px;
 }
