@@ -4,11 +4,32 @@
       <div class="ms-7 py-6 d-flex">
           <h1 class="fs-4 fw-bold me-8">Admin</h1>
           <!-- Scrollable modal -->
-          <div class="modal-dialog modal-dialog-scrollable">
-            Add New Admin
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Launch static backdrop modal
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title fw-" id="staticBackdropLabel">New Admin</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Launch modal</button>
       </div>
+      <!-- 表格 -->
       <table class="table table-hover ms-7">
         <thead>
           <tr>
@@ -81,6 +102,26 @@
           </tr>
         </tbody>
       </table>
+      <!-- 分頁 -->
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span class="material-icons">
+                navigate_before
+              </span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </main>
 
     <script type="module" src="../main.js"></script>
