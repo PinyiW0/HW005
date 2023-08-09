@@ -5,3 +5,14 @@ a{
     border: 1px solid $gray-400;
     border-radius: 2px;
 }
+
+.page-link .material-icons{
+  color: $primary;
+  &:hover{
+    color: white;
+  }    
+}
+.page-item{
+    width: 32px;
+    height: 32px;
+}
