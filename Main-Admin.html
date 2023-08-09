@@ -7,8 +7,8 @@
     <link
         href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
         rel="stylesheet">
-  <script type="module" crossorigin src="/HW005/assets/bootstrap.min-a6aae62a.js"></script>
-  <link rel="stylesheet" href="/HW005/assets/bootstrap-58d9bece.css">
+  <script type="module" crossorigin src="/HW005/assets/bootstrap.min-8b2a6565.js"></script>
+  <link rel="stylesheet" href="/HW005/assets/bootstrap-4c3a0864.css">
 </head>        <nav class="nav flex-column justify-content-between bg-light text-dark ">
         <ul class="list-unstyled">
             <li>
@@ -215,18 +215,53 @@
                 <td>emir.wicks@mail.com</td>
                 <td>Yes</td>
                 <td>
-                  <!-- Vertically centered modal -->
-                  <div class="modal-dialog modal-dialog-centered">
-                    <span class="material-icons mb-0">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <span class="material-icons">
                       visibility
                     </span>
-                  </div>
+                  </button>
                   
-                  <!-- Vertically centered scrollable modal -->
-                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                    ...
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content rounded-1">
+                       
+                        <div class="modal-body d-flex">
+                          <img class="admin-photo my-6 mx-6" src="/HW005/assets/emir-3d7a4b39.jpeg" alt="emir's photo">
+                          <div class="admin-items my-6">
+                            <p class="mb-2">#1</p>
+                            <p class="mb-0">Admin</p>
+                            <h5 class="fs-4 fw-bold mb-2">Emir Wicks</h5>
+                            <p class="fs-7 text-secondary mb-7">emir.wicks@mail.com</p>
+                            <p class="mb-0 d-flex justify-content-between align-items-center">
+                              <button class="btn btn-light btn-sm d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Verified
+                                <button class="btn btn-sm" type="button"
+                                  data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                  <span class="material-icons mb-0 text-primary">
+                                    expand_more
+                                  </span>
+                                </button>
+                              </button>
+                              
+                            </p>
+                            <div class="collapse" id="collapseExample">
+                              <div class="card card-body border-0">
+                                <div class="d-flex">
+                                  <a href="#" class="btn btn-sm btn-outline-danger py-2 px-6 me-3">Deactivate</a>
+                                  <a href="#" class="btn btn-sm btn-success py-2 px-6">Edit</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
                   </div>
-                  
+
                 </td>
                 <td>
                   <span class="material-icons mb-0">
@@ -390,7 +425,7 @@
                   </span>
                 </a>
               </li>
-              <li class="page-item"><a class="page-link text-center" href="#">1</a></li>
+              <li class="page-item active"><a class="page-link text-center" href="#">1</a></li>
               <li class="page-item"><a class="page-link text-center" href="#">2</a></li>
               <li class="page-item"><a class="page-link text-center" href="#">3</a></li>
               <li class="page-item rounded-end rounded-2">
