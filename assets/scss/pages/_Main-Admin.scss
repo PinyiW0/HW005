@@ -12,7 +12,9 @@ a{
     color: white;
   }    
 }
-
+.page-link{
+    height: 100%;
+}
 .page-link-a span{
     margin: 0px -7px;
 }
@@ -26,4 +28,10 @@ a{
 .admin-items{
     width: 320px;
     height: 141px;
+}
+
+.accordion{
+    margin-left: 220px;
+    margin-top: -65px;
+    margin-bottom: 28px;
 }
