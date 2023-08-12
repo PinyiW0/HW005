@@ -6,11 +6,14 @@ a{
     border-radius: 2px;
 }
 
-.page-link .material-icons{
-  color: $primary;
-  &:hover{
+// .page-link .material-icons{
+//   color: $primary;
+//   &:hover{
+//     color: white;
+//   }    
+// }
+.page-link:hover .material-icons{
     color: white;
-  }    
 }
 .page-link{
     height: 100%;
